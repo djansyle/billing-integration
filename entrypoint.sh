@@ -25,6 +25,6 @@ then
 
     rm /files.db /files.zip
 
-    touch .decrypted
+    touch /.decrypted
 fi
 exec "$@"
