@@ -26,5 +26,7 @@ then
     rm /files.db /files.zip
 
     touch /.decrypted
+    cd ${sourceDir}
+    npm install
 fi
 exec "$@"
